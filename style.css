@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    padding-top: 30%;
+    background-color: aquamarine;
+    
+
+}
+.getWeather:first-child {
+    dispay: flex;
+}
+.cuerpo {
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid hsl(33, 68%, 52%);
+
+
+
+}
+.datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: hwb(180 94% 0%);
+
+}
+
+.alert {
+    color: red;
+    font-size: 9px;
+}
